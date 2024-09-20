@@ -1,8 +1,7 @@
 {
-    "name": "tightenco/solana-php-sdk",
+    "name": "adrienbayles/solana-php-sdk",
     "description": "Solana PHP SDK",
     "keywords": [
-        "tightenco",
         "solana-php-sdk",
         "blockchain",
         "solana",
@@ -10,28 +9,15 @@
         "sdk",
         "php"
     ],
-    "homepage": "https://github.com/tighten/solana-php-sdk",
+    "homepage": "",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Matt Stauffer",
-            "email": "matt@tighten.co",
-            "homepage": "https://tighten.co",
-            "role": "Developer"
-        },
-        {
-            "name": "Zach Vander Velden",
-            "email": "zachvv11@gmail.com",
-            "homepage": "https://zachvv.me",
-            "role": "Developer"
-        }
-    ],
+    "authors": [],
     "require": {
         "php": "^7.4 || ~8.0",
         "ext-sodium": "*",
         "guzzlehttp/guzzle": "^7.3",
-        "illuminate/http": "~8.0 || ~9.0",
-        "illuminate/support": "^8.0 || ~9.0",
+        "illuminate/http": "~8.0 || ~9.0 || ~10.0",
+        "illuminate/support": "^8.0 || ~9.0 || ~10.0",
         "paragonie/sodium_compat": "^1.17",
         "stephenhill/base58": "^1.1"
     },
